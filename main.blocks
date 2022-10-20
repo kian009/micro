@@ -1,0 +1,7 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="fSIaco{.lOoo*1Efm5T3" x="0" y="0"><statement name="HANDLER"><block type="playMelody" id="dGIrC#eps%Dq|tz^:a1+"><value name="melody"><shadow type="melody_editor" id=")Fp:c1eo[JFDHSo~(Np1"><field name="melody">"A - D - G B D - "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="uU-n1s.nv)^J}Hx}Dm_W"><mutation min="40" max="500" label="Number" precision="0"></mutation><field name="SLIDER">120</field></shadow></value><next><block type="device_led_enable" id="+a}Awv-6WH8[2ExVp_J#"><value name="on"><shadow type="logic_boolean" id=";-t7W#jk}!-:t{{O3TM+"><field name="BOOL">TRUE</field></shadow></value></block></next></block></statement></block><block type="device_button_event" id="D}vxk{)M1a]U!b``D,Y6" x="113" y="237"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id="rwsytModF}dW*Hy.f=8C"><field name="LEDS">`
+        . . # . . 
+        . # # # . 
+        . # . # . 
+        . # # # . 
+        # . # . #
+        `</field><next><block type="playMelody" id="1pa#XLaM.YaCv.[pnOSO"><value name="melody"><shadow type="melody_editor" id="9;y6q=:G$/+$((KG=[rl"><field name="melody">"C C C C C C D E "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="OJl3FC(DHvPO24F!S3$|"><mutation min="40" max="500" label="Tempo" precision="0"></mutation><field name="SLIDER">315</field></shadow></value></block></next></block></statement></block></xml>
